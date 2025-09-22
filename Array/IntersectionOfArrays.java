@@ -1,5 +1,5 @@
 package Array;
-
+//find the intersection of two array i.e common elements
 import java.util.Arrays;
 import java.util.HashSet;
 
