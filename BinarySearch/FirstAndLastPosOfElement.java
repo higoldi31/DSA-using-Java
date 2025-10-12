@@ -6,8 +6,8 @@ public class FirstAndLastPosOfElement {
     public static void main(String[] args) {
         int[] arr={2,3,4,5,6,7,7,7,7,9,11,13,14};
         int target=7;
-        // int[] res=findPos(arr, target);
-        System.out.println(Arrays.toString(findPos(arr, target)));
+        int[] res=findPos(arr, target);
+        System.out.println(Arrays.toString(res));
         
     }
     public static int[] findPos(int[] arr,int target){
